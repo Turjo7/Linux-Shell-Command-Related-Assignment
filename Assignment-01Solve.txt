@@ -1,0 +1,60 @@
+Answer 1:
+
+mkdir myfolder2 ; cd myfolder2/ ; mkdir myfolder1 ; cd myfolder1/ ; touch myfile
+
+
+
+
+
+
+Answer 2:
+
+cat taskfile1.txt taskfile2.txt > myfolder2/myfolder1/myfile.txt
+cd myfolder2/myfolder1/;gedit myfile.txt
+
+
+Answer 3:
+
+
+wc taskfile1.txt
+wc taskfile2.txt
+
+Answer 4:
+
+wc taskfile1.txt taskfile2.txt >myoutput.txt
+
+Answer 5:
+
+sort -r taskfile1.txt
+sort -r taskfile2.txt
+
+Answer 6:
+
+sort taskfile1.txt taskfile2.txt >myfile.txt ; head -10 myfile.txt | tail -3
+
+Answer 7:
+
+echo "Nasir Uddin Ahmed - "`date +"%d-%m-%Y"`>myoutput2.txt
+
+Answer 8:
+
+/home/turjo/Desktop ; ls -l
+
+Answer 9:
+
+rm -r output.txt
+
+Answer 10:
+
+rm -r myfolder2/myfolder1
+
+Answer 11:
+
+touch demoSecurity
+1. chmod u+rw demoSecurity ;chmod go-rwx demoSecurity
+2. chmod ugo+rw demoSecurity
+3. chmod ug+x demoSecurity
+
+Answer 12:
+
+cat *.txt | sort *.txt >mergedSorted.txt

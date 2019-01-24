@@ -1,0 +1,27 @@
+1. create a file (myfile) which is inside the folder (myfolder1) that is inside another folder (myfolder2) in the current drive.
+
+2. combine taskfile1 and taskfile2 contents in myfile and then show myfile content.
+
+3. count the total number of lines, words, characters in taskfile1 and taskfile2.
+
+4. count the total number of lines, words, characters in taskfile1 and taskfile2, and print the info in myoutput.txt
+
+5. sort the contents of taskfile1 and taskfile2 in reverse alphabetic order
+
+6. sort the contents of taskfile1 and taskfile2, and then copy the 3-10 lines to myfile, then show the content of myfile.
+
+7. print your name in command prompt, and copy that name and today's date in myoutput2.txt
+
+8. print the detailed information of all the files (Name, permission etc.) in the parent directory of the current directory 
+
+9. delete output.txt
+
+10. delete myfolder1
+
+11. Create a new file demoSecurity by 
+	1. Giving the owner reading and writing privilege and no other privilege to anyone else.
+	2. Now change the file permission to provide reading and writing permission to the owner, the group and others with a single line.
+	3. Give execute permission to the owner and the group with a single call without using bit pattern.
+	
+
+12. Merge all the files in the current directory ending with .txt and show the output in sorted order in a file named mergedSorted.txt
